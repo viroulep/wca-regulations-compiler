@@ -46,4 +46,4 @@ If you want to use `wrc-states` from the source, an easy way to do this is to ru
 - Clean the `dist` and `wrc.egg_info` directories
 - `python2 setup.py egg_info`
 - `python2 setup.py sdist bdist_wheel`
-- `twine upload dist/*`
+- `twine upload -u thewca dist/*` (and provide the appropriate password)
